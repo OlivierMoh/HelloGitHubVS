@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.helloGitHubButton = new System.Windows.Forms.Button();
+            this.HelloGitHubButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // helloGitHubButton
+            // HelloGitHubButton
             // 
-            this.helloGitHubButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.helloGitHubButton.Location = new System.Drawing.Point(279, 154);
-            this.helloGitHubButton.Name = "helloGitHubButton";
-            this.helloGitHubButton.Size = new System.Drawing.Size(201, 65);
-            this.helloGitHubButton.TabIndex = 0;
-            this.helloGitHubButton.Text = "Hello GitHub";
-            this.helloGitHubButton.UseVisualStyleBackColor = false;
-            this.helloGitHubButton.Click += new System.EventHandler(this.helloGitHubButton_Click);
+            this.HelloGitHubButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.HelloGitHubButton.Location = new System.Drawing.Point(279, 154);
+            this.HelloGitHubButton.Name = "HelloGitHubButton";
+            this.HelloGitHubButton.Size = new System.Drawing.Size(201, 65);
+            this.HelloGitHubButton.TabIndex = 0;
+            this.HelloGitHubButton.Text = "Hello GitHub";
+            this.HelloGitHubButton.UseVisualStyleBackColor = false;
+            this.HelloGitHubButton.Click += new System.EventHandler(this.HelloGitHubButton_Click);
             // 
             // HelloGitHubVSForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.helloGitHubButton);
+            this.Controls.Add(this.HelloGitHubButton);
             this.Name = "HelloGitHubVSForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GitHub et Git pour Visual Studio";
@@ -57,7 +57,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button helloGitHubButton;
+        private System.Windows.Forms.Button HelloGitHubButton;
     }
 }
 

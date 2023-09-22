@@ -17,15 +17,13 @@ namespace HelloGitHubVS
             InitializeComponent();
         }
 
-        private void helloGitHubButton_Click(object sender, EventArgs e)
+        private void HelloGitHubButton_Click(object sender, EventArgs e)
         {
             Font newPolice = new Font("Cascadia Code", 10);
 
             MessageBox.Show("Hello GitHub");
 
-            helloGitHubButton.BackColor= Color.Yellow;
-            helloGitHubButton.Font = newPolice;
-            
+
         }
     }
 }
