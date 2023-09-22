@@ -33,12 +33,13 @@
             // 
             // helloGitHubButton
             // 
+            this.helloGitHubButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.helloGitHubButton.Location = new System.Drawing.Point(279, 154);
             this.helloGitHubButton.Name = "helloGitHubButton";
             this.helloGitHubButton.Size = new System.Drawing.Size(201, 65);
             this.helloGitHubButton.TabIndex = 0;
             this.helloGitHubButton.Text = "Hello GitHub";
-            this.helloGitHubButton.UseVisualStyleBackColor = true;
+            this.helloGitHubButton.UseVisualStyleBackColor = false;
             this.helloGitHubButton.Click += new System.EventHandler(this.helloGitHubButton_Click);
             // 
             // HelloGitHubVSForm
