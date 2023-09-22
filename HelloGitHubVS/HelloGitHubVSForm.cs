@@ -17,11 +17,11 @@ namespace HelloGitHubVS
             InitializeComponent();
         }
 
-        private void helloGitHubButton_Click(object sender, EventArgs e)
+        private void HelloGitHubButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello GitHub");
 
-            helloGitHubButton.BackColor= Color.Yellow;
+            HelloGitHubButton.BackColor= Color.Yellow;
         }
     }
 }
