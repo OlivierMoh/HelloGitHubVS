@@ -25,5 +25,10 @@ namespace HelloGitHubVS
 
 
         }
+
+        private void modifierButton_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Red;
+        }
     }
 }
